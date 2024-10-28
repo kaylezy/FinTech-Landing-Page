@@ -1,50 +1,20 @@
-# React + TypeScript + Vite
+# Upgrade Financial Services Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a responsive landing page for a financial services company, Upgrade. The site is designed to showcase the company's financial products, features, and app interface, emphasizing security, flexibility, and ease of access for customers. It features a modern, clean design with sections that highlight key offerings, customer testimonials, and a call-to-action for opening an account.
 
-Currently, two official plugins are available:
+## Overview
+The homepage is a comprehensive landing page featuring multiple sections designed to attract new users and inform existing users about the benefits and features of Upgrade's services. Key elements include:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Hero Section: Highlights the company's core values of security and flexibility, with a call-to-action to open an account.
+- Payment Methods: Displays supported payment methods, including popular providers like Visa, PayPal, and Alipay.
+- Features and Benefits: Sections that detail the app’s capabilities, like expense tracking, money transfers, and customization options.
+- Client Testimonials: Showcases customer feedback to build trust with potential new users.
+- Call-to-Action Sections: Various prompts for users to open an account or learn more about specific services.
 
-## Expanding the ESLint configuration
+## Technologies
+This project is built with:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React (for component structure)
+- TailwindCSS (for utility-first styling)
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
