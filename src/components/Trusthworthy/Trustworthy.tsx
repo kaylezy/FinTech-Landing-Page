@@ -1,4 +1,4 @@
-import UpgradePhone from "../../assets/Upgrade-phone.png";
+import UpgradePhone from "../../assets/upgrade-phone.png";
 import Fire from "../../assets/fire.png";
 import ArrowRight from "../../assets/arrow-right.png";
 
