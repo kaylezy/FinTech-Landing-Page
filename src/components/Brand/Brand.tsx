@@ -2,7 +2,7 @@ import LogoMark from "../../assets/Logomark.png";
 import Samsung from "../../assets/samsung.png";
 import Visalogo from "../../assets/visa-logo1.png";
 import Amazon from "../../assets/amazon.png";
-import Paypal from "../../assets/paypal.png";
+import Paypal from "../../assets/Paypal.png";
 import Alipay from "../../assets/airplay.png";
 
 const Brands = () => {
